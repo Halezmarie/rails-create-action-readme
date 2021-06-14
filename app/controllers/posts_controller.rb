@@ -10,8 +10,7 @@ class PostsController < ApplicationController
   def new
     @post = Post.new
   end
-
-  # add create method here
+  
   def create
     @post = Post.new
     @post.title = params[:title]
@@ -21,3 +20,5 @@ class PostsController < ApplicationController
   end 
 
 end
+
+# review
